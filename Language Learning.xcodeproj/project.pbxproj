@@ -7,18 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B4B5BECE2AFEA3750083418E /* Language_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5BECD2AFEA3750083418E /* Language_LearningApp.swift */; };
+		B40C3FFF2B13943E007F9272 /* AssistantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40C3FFE2B13943E007F9272 /* AssistantService.swift */; };
+		B40C40032B13AD95007F9272 /* ThreadServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40C40022B13AD95007F9272 /* ThreadServiceImpl.swift */; };
+		B40C40052B13B596007F9272 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40C40042B13B596007F9272 /* Tool.swift */; };
+		B40C40082B13CE5D007F9272 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40C40072B13CE5D007F9272 /* Word.swift */; };
+		B40C400B2B14F2BF007F9272 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40C400A2B14F2BF007F9272 /* Quiz.swift */; };
+		B40C400D2B14F58A007F9272 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40C400C2B14F58A007F9272 /* Run.swift */; };
+		B40C400F2B14F5DA007F9272 /* ThreadMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40C400E2B14F5DA007F9272 /* ThreadMessage.swift */; };
+		B40C40132B14F88F007F9272 /* ThreadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40C40122B14F88F007F9272 /* ThreadService.swift */; };
+		B40C40152B14F897007F9272 /* RunService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40C40142B14F897007F9272 /* RunService.swift */; };
+		B40C40172B14F8BE007F9272 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40C40162B14F8BE007F9272 /* OpenAIService.swift */; };
+		B40C401B2B150630007F9272 /* AssistanceSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40C401A2B150630007F9272 /* AssistanceSessionManager.swift */; };
+		B40C401E2B165E1E007F9272 /* URLSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40C401D2B165E1E007F9272 /* URLSession+Extension.swift */; };
+		B40C40202B165E83007F9272 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40C401F2B165E83007F9272 /* BaseService.swift */; };
+		B40C40222B166643007F9272 /* RunServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40C40212B166643007F9272 /* RunServiceImpl.swift */; };
+		B442A8312B1E093A00958983 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B442A8302B1E093A00958983 /* String+Extension.swift */; };
+		B44C856E2B313E8000D67E98 /* GeminiChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44C856D2B313E8000D67E98 /* GeminiChatView.swift */; };
+		B45B22FC2B1CD9AA00E32976 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45B22FB2B1CD9AA00E32976 /* Constant.swift */; };
+		B45B22FF2B1CF1F700E32976 /* TutorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45B22FE2B1CF1F700E32976 /* TutorView.swift */; };
+		B45B23012B1CF20200E32976 /* QuizRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45B23002B1CF20200E32976 /* QuizRow.swift */; };
+		B4735D632B3898F800063291 /* GeminiMessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4735D622B3898F800063291 /* GeminiMessageRow.swift */; };
+		B4821A482B408B0500BFC536 /* GoogleAIChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4821A472B408B0500BFC536 /* GoogleAIChatService.swift */; };
+		B4821A4A2B413E4500BFC536 /* GoogleChatConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4821A492B413E4500BFC536 /* GoogleChatConversation.swift */; };
+		B4821A4D2B413E6200BFC536 /* PersistantGoogleAIChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4821A4C2B413E6200BFC536 /* PersistantGoogleAIChatManager.swift */; };
+		B4B26B072B30B06600201B83 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = B4B26B062B30B06600201B83 /* GoogleGenerativeAI */; };
+		B4B26B0A2B30B09500201B83 /* GeminiChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B26B092B30B09500201B83 /* GeminiChatViewModel.swift */; };
+		B4B26B0D2B30B0B900201B83 /* GeminiChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B26B0C2B30B0B900201B83 /* GeminiChatService.swift */; };
+		B4B5BECE2AFEA3750083418E /* LanguageLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5BECD2AFEA3750083418E /* LanguageLearning.swift */; };
 		B4B5BED02AFEA3750083418E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5BECF2AFEA3750083418E /* ContentView.swift */; };
 		B4B5BED22AFEA3790083418E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B5BED12AFEA3790083418E /* Assets.xcassets */; };
 		B4B5BED52AFEA3790083418E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B5BED42AFEA3790083418E /* Preview Assets.xcassets */; };
+		B4B5BEDE2AFEA3AE0083418E /* APIKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5BEDD2AFEA3AE0083418E /* APIKeyManager.swift */; };
+		B4B5BEE32AFEAA6E0083418E /* ChatCompletionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5BEE22AFEAA6E0083418E /* ChatCompletionService.swift */; };
+		B4B5BEE72AFEADCC0083418E /* ChatCompletionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5BEE62AFEADCC0083418E /* ChatCompletionRequest.swift */; };
+		B4B5BEE92AFEAEA90083418E /* ChatCompletionServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5BEE82AFEAEA90083418E /* ChatCompletionServiceImpl.swift */; };
+		B4B5BEEC2AFEB6A50083418E /* ChatCompletionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5BEEB2AFEB6A50083418E /* ChatCompletionResponse.swift */; };
+		B4B5BEF02AFEB71C0083418E /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5BEEF2AFEB71C0083418E /* ChatViewModel.swift */; };
+		B4B5BEF52AFFAD790083418E /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5BEF42AFFAD790083418E /* ChatView.swift */; };
+		B4B5BEF72AFFADAB0083418E /* OpenAIServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5BEF62AFFADAB0083418E /* OpenAIServiceMock.swift */; };
+		B4B5BEF92AFFAF6D0083418E /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5BEF82AFFAF6D0083418E /* MessageRow.swift */; };
+		B4B5BEFB2B000B8C0083418E /* ChatBubbleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5BEFA2B000B8C0083418E /* ChatBubbleShape.swift */; };
+		B4B5BF062B0134380083418E /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = B4B5BF052B0134380083418E /* Realm */; };
+		B4B5BF082B0134380083418E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B4B5BF072B0134380083418E /* RealmSwift */; };
+		B4B5BF0C2B0137950083418E /* RolePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5BF0B2B0137950083418E /* RolePlay.swift */; };
+		B4B5BF0F2B02A49B0083418E /* TutorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5BF0E2B02A49B0083418E /* TutorViewModel.swift */; };
+		B4B5BF112B02A4AE0083418E /* BaseChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5BF102B02A4AE0083418E /* BaseChatViewModel.swift */; };
+		B4D54E482B11D8B000CD17C1 /* Assistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D54E472B11D8B000CD17C1 /* Assistant.swift */; };
+		B4D54E4B2B11DB0500CD17C1 /* LanguageProficiency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D54E4A2B11DB0500CD17C1 /* LanguageProficiency.swift */; };
+		B4D54E502B1266BF00CD17C1 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = B4D54E4F2B1266BF00CD17C1 /* Realm */; };
+		B4D54E522B1266BF00CD17C1 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B4D54E512B1266BF00CD17C1 /* RealmSwift */; };
+		B4D54E552B12681600CD17C1 /* Conversations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D54E542B12681600CD17C1 /* Conversations.swift */; };
+		B4D54E582B1302E100CD17C1 /* AssistantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D54E572B1302E100CD17C1 /* AssistantModel.swift */; };
+		B4D54E5A2B1303BA00CD17C1 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D54E592B1303BA00CD17C1 /* Thread.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B40C3FFE2B13943E007F9272 /* AssistantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantService.swift; sourceTree = "<group>"; };
+		B40C40022B13AD95007F9272 /* ThreadServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadServiceImpl.swift; sourceTree = "<group>"; };
+		B40C40042B13B596007F9272 /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		B40C40072B13CE5D007F9272 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		B40C400A2B14F2BF007F9272 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		B40C400C2B14F58A007F9272 /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		B40C400E2B14F5DA007F9272 /* ThreadMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadMessage.swift; sourceTree = "<group>"; };
+		B40C40122B14F88F007F9272 /* ThreadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadService.swift; sourceTree = "<group>"; };
+		B40C40142B14F897007F9272 /* RunService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunService.swift; sourceTree = "<group>"; };
+		B40C40162B14F8BE007F9272 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		B40C401A2B150630007F9272 /* AssistanceSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistanceSessionManager.swift; sourceTree = "<group>"; };
+		B40C401D2B165E1E007F9272 /* URLSession+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Extension.swift"; sourceTree = "<group>"; };
+		B40C401F2B165E83007F9272 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		B40C40212B166643007F9272 /* RunServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunServiceImpl.swift; sourceTree = "<group>"; };
+		B442A8302B1E093A00958983 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		B44C856D2B313E8000D67E98 /* GeminiChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiChatView.swift; sourceTree = "<group>"; };
+		B45B22FB2B1CD9AA00E32976 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		B45B22FE2B1CF1F700E32976 /* TutorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorView.swift; sourceTree = "<group>"; };
+		B45B23002B1CF20200E32976 /* QuizRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizRow.swift; sourceTree = "<group>"; };
+		B4735D622B3898F800063291 /* GeminiMessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiMessageRow.swift; sourceTree = "<group>"; };
+		B4821A472B408B0500BFC536 /* GoogleAIChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAIChatService.swift; sourceTree = "<group>"; };
+		B4821A492B413E4500BFC536 /* GoogleChatConversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleChatConversation.swift; sourceTree = "<group>"; };
+		B4821A4C2B413E6200BFC536 /* PersistantGoogleAIChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistantGoogleAIChatManager.swift; sourceTree = "<group>"; };
+		B4B26B092B30B09500201B83 /* GeminiChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiChatViewModel.swift; sourceTree = "<group>"; };
+		B4B26B0C2B30B0B900201B83 /* GeminiChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiChatService.swift; sourceTree = "<group>"; };
 		B4B5BECA2AFEA3750083418E /* Language Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Language Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4B5BECD2AFEA3750083418E /* Language_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language_LearningApp.swift; sourceTree = "<group>"; };
+		B4B5BECD2AFEA3750083418E /* LanguageLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageLearning.swift; sourceTree = "<group>"; };
 		B4B5BECF2AFEA3750083418E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B4B5BED12AFEA3790083418E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4B5BED42AFEA3790083418E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4B5BEDD2AFEA3AE0083418E /* APIKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeyManager.swift; sourceTree = "<group>"; };
+		B4B5BEE22AFEAA6E0083418E /* ChatCompletionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCompletionService.swift; sourceTree = "<group>"; };
+		B4B5BEE62AFEADCC0083418E /* ChatCompletionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCompletionRequest.swift; sourceTree = "<group>"; };
+		B4B5BEE82AFEAEA90083418E /* ChatCompletionServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCompletionServiceImpl.swift; sourceTree = "<group>"; };
+		B4B5BEEB2AFEB6A50083418E /* ChatCompletionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCompletionResponse.swift; sourceTree = "<group>"; };
+		B4B5BEEF2AFEB71C0083418E /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		B4B5BEF42AFFAD790083418E /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		B4B5BEF62AFFADAB0083418E /* OpenAIServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIServiceMock.swift; sourceTree = "<group>"; };
+		B4B5BEF82AFFAF6D0083418E /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
+		B4B5BEFA2B000B8C0083418E /* ChatBubbleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleShape.swift; sourceTree = "<group>"; };
+		B4B5BF0B2B0137950083418E /* RolePlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolePlay.swift; sourceTree = "<group>"; };
+		B4B5BF0E2B02A49B0083418E /* TutorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorViewModel.swift; sourceTree = "<group>"; };
+		B4B5BF102B02A4AE0083418E /* BaseChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseChatViewModel.swift; sourceTree = "<group>"; };
+		B4D54E472B11D8B000CD17C1 /* Assistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assistant.swift; sourceTree = "<group>"; };
+		B4D54E4A2B11DB0500CD17C1 /* LanguageProficiency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageProficiency.swift; sourceTree = "<group>"; };
+		B4D54E542B12681600CD17C1 /* Conversations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversations.swift; sourceTree = "<group>"; };
+		B4D54E572B1302E100CD17C1 /* AssistantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantModel.swift; sourceTree = "<group>"; };
+		B4D54E592B1303BA00CD17C1 /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +117,106 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4B26B072B30B06600201B83 /* GoogleGenerativeAI in Frameworks */,
+				B4D54E522B1266BF00CD17C1 /* RealmSwift in Frameworks */,
+				B4D54E502B1266BF00CD17C1 /* Realm in Frameworks */,
+				B4B5BF082B0134380083418E /* RealmSwift in Frameworks */,
+				B4B5BF062B0134380083418E /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B40C40062B13CE37007F9272 /* Word */ = {
+			isa = PBXGroup;
+			children = (
+				B40C40072B13CE5D007F9272 /* Word.swift */,
+			);
+			path = Word;
+			sourceTree = "<group>";
+		};
+		B40C40092B14F2B1007F9272 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				B40C400A2B14F2BF007F9272 /* Quiz.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		B40C40102B14F831007F9272 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4D54E572B1302E100CD17C1 /* AssistantModel.swift */,
+				B4D54E592B1303BA00CD17C1 /* Thread.swift */,
+				B40C400C2B14F58A007F9272 /* Run.swift */,
+				B40C400E2B14F5DA007F9272 /* ThreadMessage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B40C40112B14F872007F9272 /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				B40C40022B13AD95007F9272 /* ThreadServiceImpl.swift */,
+				B40C40212B166643007F9272 /* RunServiceImpl.swift */,
+			);
+			path = Impl;
+			sourceTree = "<group>";
+		};
+		B40C401C2B165E12007F9272 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B40C401D2B165E1E007F9272 /* URLSession+Extension.swift */,
+				B442A8302B1E093A00958983 /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B45B22FA2B1CD7CF00E32976 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B45B22FB2B1CD9AA00E32976 /* Constant.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B45B22FD2B1CF1E700E32976 /* TutorView */ = {
+			isa = PBXGroup;
+			children = (
+				B45B22FE2B1CF1F700E32976 /* TutorView.swift */,
+				B45B23002B1CF20200E32976 /* QuizRow.swift */,
+			);
+			path = TutorView;
+			sourceTree = "<group>";
+		};
+		B4821A4B2B413E4D00BFC536 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B4821A4C2B413E6200BFC536 /* PersistantGoogleAIChatManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		B4B26B082B30B07800201B83 /* GeminiChat */ = {
+			isa = PBXGroup;
+			children = (
+				B4B26B092B30B09500201B83 /* GeminiChatViewModel.swift */,
+				B44C856D2B313E8000D67E98 /* GeminiChatView.swift */,
+				B4735D622B3898F800063291 /* GeminiMessageRow.swift */,
+			);
+			path = GeminiChat;
+			sourceTree = "<group>";
+		};
+		B4B26B0B2B30B0A800201B83 /* GoogleGemini */ = {
+			isa = PBXGroup;
+			children = (
+				B4B26B0C2B30B0B900201B83 /* GeminiChatService.swift */,
+				B4821A472B408B0500BFC536 /* GoogleAIChatService.swift */,
+			);
+			path = GoogleGemini;
+			sourceTree = "<group>";
+		};
 		B4B5BEC12AFEA3750083418E = {
 			isa = PBXGroup;
 			children = (
@@ -51,7 +236,14 @@
 		B4B5BECC2AFEA3750083418E /* Language Learning */ = {
 			isa = PBXGroup;
 			children = (
-				B4B5BECD2AFEA3750083418E /* Language_LearningApp.swift */,
+				B45B22FA2B1CD7CF00E32976 /* Utils */,
+				B40C401C2B165E12007F9272 /* Extension */,
+				B4B5BEF22AFFAD5B0083418E /* Module */,
+				B4B5BEF12AFEB73E0083418E /* Base */,
+				B4B5BEE52AFEADB30083418E /* DataModel */,
+				B4B5BEDF2AFEA9D30083418E /* DataManager */,
+				B4B5BEDC2AFEA3960083418E /* View */,
+				B4B5BECD2AFEA3750083418E /* LanguageLearning.swift */,
 				B4B5BECF2AFEA3750083418E /* ContentView.swift */,
 				B4B5BED12AFEA3790083418E /* Assets.xcassets */,
 				B4B5BED32AFEA3790083418E /* Preview Content */,
@@ -65,6 +257,209 @@
 				B4B5BED42AFEA3790083418E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4B5BEDB2AFEA3800083418E /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				B4B5BEDD2AFEA3AE0083418E /* APIKeyManager.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		B4B5BEDC2AFEA3960083418E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B45B22FD2B1CF1E700E32976 /* TutorView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4B5BEDF2AFEA9D30083418E /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				B4B5BEE02AFEAA410083418E /* Network */,
+				B4B5BEDB2AFEA3800083418E /* Authentication */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		B4B5BEE02AFEAA410083418E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B4B26B0B2B30B0A800201B83 /* GoogleGemini */,
+				B4B5BEE12AFEAA490083418E /* OpenAI */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B4B5BEE12AFEAA490083418E /* OpenAI */ = {
+			isa = PBXGroup;
+			children = (
+				B4D54E5B2B1309A300CD17C1 /* AssistanceService */,
+				B4B5BEE22AFEAA6E0083418E /* ChatCompletionService.swift */,
+				B4B5BEE82AFEAEA90083418E /* ChatCompletionServiceImpl.swift */,
+				B4B5BEF62AFFADAB0083418E /* OpenAIServiceMock.swift */,
+				B40C40162B14F8BE007F9272 /* OpenAIService.swift */,
+			);
+			path = OpenAI;
+			sourceTree = "<group>";
+		};
+		B4B5BEE52AFEADB30083418E /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				B4D54E532B1267BC00CD17C1 /* Persistance */,
+				B4D54E492B11DAF900CD17C1 /* Language */,
+				B4B5BEEA2AFEB6970083418E /* Network */,
+				B4B5BF0B2B0137950083418E /* RolePlay.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		B4B5BEEA2AFEB6970083418E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B4D54E562B1302D100CD17C1 /* Assistant */,
+				B4B5BEFD2B00A9C90083418E /* GetModel */,
+				B4B5BEED2AFEB6B40083418E /* ChatCompletion */,
+				B40C40042B13B596007F9272 /* Tool.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B4B5BEED2AFEB6B40083418E /* ChatCompletion */ = {
+			isa = PBXGroup;
+			children = (
+				B4B5BEE62AFEADCC0083418E /* ChatCompletionRequest.swift */,
+				B4B5BEEB2AFEB6A50083418E /* ChatCompletionResponse.swift */,
+			);
+			path = ChatCompletion;
+			sourceTree = "<group>";
+		};
+		B4B5BEF12AFEB73E0083418E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B4B5BF102B02A4AE0083418E /* BaseChatViewModel.swift */,
+				B4D54E472B11D8B000CD17C1 /* Assistant.swift */,
+				B40C401F2B165E83007F9272 /* BaseService.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B4B5BEF22AFFAD5B0083418E /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				B4D54E4D2B11DBFB00CD17C1 /* LearnWithAI */,
+				B4D54E4C2B11DBA300CD17C1 /* SelfPractice */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		B4B5BEF32AFFAD640083418E /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				B4B5BEEF2AFEB71C0083418E /* ChatViewModel.swift */,
+				B4B5BEF42AFFAD790083418E /* ChatView.swift */,
+				B4B5BEF82AFFAF6D0083418E /* MessageRow.swift */,
+				B4B5BEFA2B000B8C0083418E /* ChatBubbleShape.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		B4B5BEFD2B00A9C90083418E /* GetModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GetModel;
+			sourceTree = "<group>";
+		};
+		B4B5BF022B012B160083418E /* AddFlashCard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AddFlashCard;
+			sourceTree = "<group>";
+		};
+		B4B5BF032B0133E80083418E /* Grammar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Grammar;
+			sourceTree = "<group>";
+		};
+		B4B5BF0D2B02A47A0083418E /* Tutor */ = {
+			isa = PBXGroup;
+			children = (
+				B4B5BF0E2B02A49B0083418E /* TutorViewModel.swift */,
+				B40C401A2B150630007F9272 /* AssistanceSessionManager.swift */,
+			);
+			path = Tutor;
+			sourceTree = "<group>";
+		};
+		B4D54E492B11DAF900CD17C1 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				B4D54E4A2B11DB0500CD17C1 /* LanguageProficiency.swift */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		B4D54E4C2B11DBA300CD17C1 /* SelfPractice */ = {
+			isa = PBXGroup;
+			children = (
+				B4D54E4E2B11DC2200CD17C1 /* Reading */,
+				B4B5BF022B012B160083418E /* AddFlashCard */,
+			);
+			path = SelfPractice;
+			sourceTree = "<group>";
+		};
+		B4D54E4D2B11DBFB00CD17C1 /* LearnWithAI */ = {
+			isa = PBXGroup;
+			children = (
+				B4B26B082B30B07800201B83 /* GeminiChat */,
+				B40C40092B14F2B1007F9272 /* Quiz */,
+				B40C40062B13CE37007F9272 /* Word */,
+				B4B5BEF32AFFAD640083418E /* Chat */,
+				B4B5BF0D2B02A47A0083418E /* Tutor */,
+				B4B5BF032B0133E80083418E /* Grammar */,
+			);
+			path = LearnWithAI;
+			sourceTree = "<group>";
+		};
+		B4D54E4E2B11DC2200CD17C1 /* Reading */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reading;
+			sourceTree = "<group>";
+		};
+		B4D54E532B1267BC00CD17C1 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				B4821A4B2B413E4D00BFC536 /* Manager */,
+				B4D54E542B12681600CD17C1 /* Conversations.swift */,
+				B4821A492B413E4500BFC536 /* GoogleChatConversation.swift */,
+			);
+			path = Persistance;
+			sourceTree = "<group>";
+		};
+		B4D54E562B1302D100CD17C1 /* Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				B40C40102B14F831007F9272 /* Model */,
+			);
+			path = Assistant;
+			sourceTree = "<group>";
+		};
+		B4D54E5B2B1309A300CD17C1 /* AssistanceService */ = {
+			isa = PBXGroup;
+			children = (
+				B40C40112B14F872007F9272 /* Impl */,
+				B40C3FFE2B13943E007F9272 /* AssistantService.swift */,
+				B40C40122B14F88F007F9272 /* ThreadService.swift */,
+				B40C40142B14F897007F9272 /* RunService.swift */,
+			);
+			path = AssistanceService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +478,13 @@
 			dependencies = (
 			);
 			name = "Language Learning";
+			packageProductDependencies = (
+				B4B5BF052B0134380083418E /* Realm */,
+				B4B5BF072B0134380083418E /* RealmSwift */,
+				B4D54E4F2B1266BF00CD17C1 /* Realm */,
+				B4D54E512B1266BF00CD17C1 /* RealmSwift */,
+				B4B26B062B30B06600201B83 /* GoogleGenerativeAI */,
+			);
 			productName = "Language Learning";
 			productReference = B4B5BECA2AFEA3750083418E /* Language Learning.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +513,10 @@
 				Base,
 			);
 			mainGroup = B4B5BEC12AFEA3750083418E;
+			packageReferences = (
+				B4B5BF042B0134380083418E /* XCRemoteSwiftPackageReference "realm-swift" */,
+				B4B26B052B30B06500201B83 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
 			productRefGroup = B4B5BECB2AFEA3750083418E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +543,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B40C3FFF2B13943E007F9272 /* AssistantService.swift in Sources */,
+				B4821A4D2B413E6200BFC536 /* PersistantGoogleAIChatManager.swift in Sources */,
+				B4B5BEEC2AFEB6A50083418E /* ChatCompletionResponse.swift in Sources */,
+				B4D54E582B1302E100CD17C1 /* AssistantModel.swift in Sources */,
+				B40C40152B14F897007F9272 /* RunService.swift in Sources */,
+				B4B26B0D2B30B0B900201B83 /* GeminiChatService.swift in Sources */,
+				B4D54E4B2B11DB0500CD17C1 /* LanguageProficiency.swift in Sources */,
+				B44C856E2B313E8000D67E98 /* GeminiChatView.swift in Sources */,
+				B4B5BEFB2B000B8C0083418E /* ChatBubbleShape.swift in Sources */,
+				B40C400D2B14F58A007F9272 /* Run.swift in Sources */,
+				B45B22FC2B1CD9AA00E32976 /* Constant.swift in Sources */,
+				B40C401B2B150630007F9272 /* AssistanceSessionManager.swift in Sources */,
+				B4821A4A2B413E4500BFC536 /* GoogleChatConversation.swift in Sources */,
+				B4B5BEF92AFFAF6D0083418E /* MessageRow.swift in Sources */,
+				B4D54E552B12681600CD17C1 /* Conversations.swift in Sources */,
+				B40C40172B14F8BE007F9272 /* OpenAIService.swift in Sources */,
+				B4B5BF0F2B02A49B0083418E /* TutorViewModel.swift in Sources */,
+				B4D54E482B11D8B000CD17C1 /* Assistant.swift in Sources */,
+				B4B5BEDE2AFEA3AE0083418E /* APIKeyManager.swift in Sources */,
+				B4B5BEF02AFEB71C0083418E /* ChatViewModel.swift in Sources */,
+				B40C401E2B165E1E007F9272 /* URLSession+Extension.swift in Sources */,
+				B4B5BF0C2B0137950083418E /* RolePlay.swift in Sources */,
+				B40C40202B165E83007F9272 /* BaseService.swift in Sources */,
+				B40C40082B13CE5D007F9272 /* Word.swift in Sources */,
+				B40C40222B166643007F9272 /* RunServiceImpl.swift in Sources */,
+				B40C40032B13AD95007F9272 /* ThreadServiceImpl.swift in Sources */,
+				B4B26B0A2B30B09500201B83 /* GeminiChatViewModel.swift in Sources */,
+				B442A8312B1E093A00958983 /* String+Extension.swift in Sources */,
+				B4D54E5A2B1303BA00CD17C1 /* Thread.swift in Sources */,
+				B40C400B2B14F2BF007F9272 /* Quiz.swift in Sources */,
 				B4B5BED02AFEA3750083418E /* ContentView.swift in Sources */,
-				B4B5BECE2AFEA3750083418E /* Language_LearningApp.swift in Sources */,
+				B4B5BEF52AFFAD790083418E /* ChatView.swift in Sources */,
+				B4B5BEF72AFFADAB0083418E /* OpenAIServiceMock.swift in Sources */,
+				B40C40132B14F88F007F9272 /* ThreadService.swift in Sources */,
+				B4B5BECE2AFEA3750083418E /* LanguageLearning.swift in Sources */,
+				B4B5BEE92AFEAEA90083418E /* ChatCompletionServiceImpl.swift in Sources */,
+				B4B5BEE72AFEADCC0083418E /* ChatCompletionRequest.swift in Sources */,
+				B4735D632B3898F800063291 /* GeminiMessageRow.swift in Sources */,
+				B4821A482B408B0500BFC536 /* GoogleAIChatService.swift in Sources */,
+				B45B23012B1CF20200E32976 /* QuizRow.swift in Sources */,
+				B45B22FF2B1CF1F700E32976 /* TutorView.swift in Sources */,
+				B4B5BEE32AFEAA6E0083418E /* ChatCompletionService.swift in Sources */,
+				B40C40052B13B596007F9272 /* Tool.swift in Sources */,
+				B40C400F2B14F5DA007F9272 /* ThreadMessage.swift in Sources */,
+				B4B5BF112B02A4AE0083418E /* BaseChatViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +793,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B4B26B052B30B06500201B83 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.4;
+			};
+		};
+		B4B5BF042B0134380083418E /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B4B26B062B30B06600201B83 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4B26B052B30B06500201B83 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+		B4B5BF052B0134380083418E /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4B5BF042B0134380083418E /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		B4B5BF072B0134380083418E /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4B5BF042B0134380083418E /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		B4D54E4F2B1266BF00CD17C1 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4B5BF042B0134380083418E /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		B4D54E512B1266BF00CD17C1 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4B5BF042B0134380083418E /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B4B5BEC22AFEA3750083418E /* Project object */;
 }

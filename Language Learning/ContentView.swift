@@ -8,17 +8,47 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var chatViewModel: ChatViewModel
+    @EnvironmentObject var tutorViewModel: TutorViewModel
+    @EnvironmentObject var geminiChatViewModel: GeminiChatViewModel
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            NavigationView {
+                VStack {
+                    NavigationLink("Chat") {
+                        ChatView()
+                            .environmentObject(chatViewModel)
+                    }
+                    
+                    NavigationLink("Grammar") {
+                        EmptyView()
+                    }
+                    
+                    NavigationLink("Translation") {
+                        EmptyView()
+                    }
+                    
+                    NavigationLink("Tutor") {
+                        
+                    }
+                    
+                    NavigationLink("Gemini") {
+                        GeminiChatView()
+                            .environmentObject(geminiChatViewModel)
+                    }
+                }
+                    
+            }
+        }.onAppear {
+//            tutorViewModel.getQuiz()
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
-}
+//#Preview {
+//    ContentView()
+//        .environmentObject(ChatViewModel(openAiService: OpenAIServiceMock()))
+//        .environmentObject(TutorViewModel())
+//}
